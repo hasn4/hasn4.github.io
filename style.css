@@ -1,0 +1,188 @@
+  .profile-pic img {
+    width: 100%;
+}
+
+   .Header_pic img {
+    Width:100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.heading-text {
+  margin: auto;
+  width: 250px;
+  margin-left: 0px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 50px;
+
+}
+
+.Para-text {
+  margin: auto;
+  width: 300px;
+  padding-bottom: 50px;
+
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 1.5em;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5em 0;
+  padding-left: 0.5em;
+}
+
+Comparison List
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: transparent;
+}
+
+.left-img, .right-img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.left-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.right-img {
+  float: right;
+  margin-left: 10px;
+}
+
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Project Styles */
+.project {
+  margin-bottom: 2rem;
+}
+
+.project-details {
+  text-align: center;
+}
+
+.project-details h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-details p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.image {
+  flex-basis: calc(50% - 0.5rem);
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.image-p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.project-distribution {
+  margin-top: 2rem;
+}
+  
+.project-distribution h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+    
+.project-distribution ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.project-distribution li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+    
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
