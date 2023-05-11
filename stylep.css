@@ -1,0 +1,12 @@
+.image-container {
+    border: 10px solid #000;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
