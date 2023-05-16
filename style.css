@@ -87,15 +87,14 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px auto;
-    max-width: 800px;
+    margin: 10px;
+    max-width: 3200px;
   }
 
   .moodboard img {
-    margin: 10px;
+    margin: 5px;
     width: 200px;
-    height: 200px;
-    object-fit: cover;
+    height: 450px;
   }
 
 /* Global Styles */
@@ -239,46 +238,40 @@ footer p {
   font-weight: bold;
 }
 
-.cards {
+.card-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .card {
-  max-width: 300px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   overflow: hidden;
 }
 
-.card-img {
-  float: left;
-  margin: auto;
-  width: 150px;
+.card img {
+  width: 100%;
   height: auto;
-  position: static;
   object-fit: cover;
 }
 
-.card-content {
-  overflow: hidden;
+.card-description {
   padding: 20px;
 }
 
-.card-title {
-  font-size: 24px;
+.card-description h2 {
+  margin: 0;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin: 0 0 10px;
 }
 
-.card-text {
-  font-size: 16px;
-  line-height: 1.5;
+.card-description p {
   margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
+
 
 .project-imagep {
   border: 10px solid #000;
@@ -292,8 +285,3 @@ footer p {
   max-width: 100%;
   height: auto;
 }
-
-
-
-
-
