@@ -16,8 +16,8 @@
                 </div>
                 <div class="nav-right">
                     <a href="street.html">STREET</a>
-                    <a href="portrait.html">PORTRAIT</a>
-                    <a href="contact.html" class="selected">CONTACT</a>
+                    <a href="portrait.html" class="selected">PORTRAIT</a>
+                    <a href="contact.html">CONTACT</a>
                     <a href="about.html">ABOUT</a>
                 </div>
             </section>
@@ -34,8 +34,8 @@
                     </div>
                     <div id="nav-link">
                         <div class="nav-links"><a href="street.html">STREET</a></div>
-                        <div class="nav-links"><a href="portrait.html">PORTRAIT</a></div>
-                        <div class="nav-links selected"><a href="contact.html">CONTACT</a></div>
+                        <div class="nav-links selected"><a href="portrait.html">PORTRAIT</a></div>
+                        <div class="nav-links"><a href="contact.html">CONTACT</a></div>
                         <div class="nav-links"><a href="about.html">ABOUT</a></div>
                     </div>
                 </div>
@@ -44,7 +44,23 @@
     </header>
 
     <main>
-        <div><p>Hello World!</p></div>
+        <div id="imageGallery">
+            <img src="assets/images/small-01.jpg" alt="Image 1" onclick="openImage(this.src)">
+            <img src="assets/images/small-02.jpg" alt="Image 2" onclick="openImage(this.src)">
+            <img src="assets/images/small-03.jpg" alt="Image 3" onclick="openImage(this.src)">
+            <img src="assets/images/small-04.jpg" alt="Image 4" onclick="openImage(this.src)">
+            <img src="assets/images/small-05.jpg" alt="Image 5" onclick="openImage(this.src)">
+            <img src="assets/images/small-07.jpg" alt="Image 7" onclick="openImage(this.src)">
+            <img src="assets/images/small-08.jpg" alt="Image 8" onclick="openImage(this.src)">
+            <img src="assets/images/small-09.jpg" alt="Image 9" onclick="openImage(this.src)">
+        </div>
+
+        <!-- Fullscreen overlay for images -->
+        <div id="image-overlay" class="hidden" onclick="closeImage()">
+            <span id="close-button" onclick="closeImage()">×</span>
+            <img id="fullscreen-image" src="" alt="Full Size Image">
+        </div>
+        
     </main>
     
     <script src="assets/js/main.js"></script>
