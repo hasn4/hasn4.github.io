@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hassan Sajid - Photography</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <section id="desktop-nav">
                 <div class="nav-left">
-                    <h1><a href="/">HASSAN SAJID</a></h1>
+                    <a class='title' href="/">HASSAN SAJID</a>
                 </div>
                 <div class="nav-right">
                     <a href="street.html" class="selected">STREET</a>
@@ -23,17 +26,17 @@
             </section>
             <section id="mobile-nav">
                 <div id="menu-closed">
-                    <h1><a href="/">HASSAN SAJID</a></h1>
-                    <div id="menu-open-button">
+                    <h1><a class='title' href="/">HASSAN SAJID</a></h1>
+                    <div id="menu-open-button" class="pointer">
                         <a  onclick="show_menu()">MENU</a>
                     </div>
                 </div>
                 <div id="menu-open" class="hidden">
-                    <div id="menu-close-button">
+                    <div id="menu-close-button" class="pointer">
                         <a onclick="hide_menu()">CLOSE</a>
                     </div>
                     <div id="nav-link">
-                        <div class="nav-links selected"><a href="street.html">STREET</a></div>
+                        <div class="nav-links"><a href="street.html" class="selected">STREET</a></div>
                         <div class="nav-links"><a href="portrait.html">PORTRAIT</a></div>
                         <div class="nav-links"><a href="contact.html">CONTACT</a></div>
                         <div class="nav-links"><a href="about.html">ABOUT</a></div>
@@ -45,16 +48,16 @@
 
     <main>
         <div id="imageGallery">
-            <img src="assets/images/small-10.jpg" alt="Image 10" onclick="openImage(this.src)">
-            <img src="assets/images/small-11.jpg" alt="Image 11" onclick="openImage(this.src)">
-            <img src="assets/images/small-12.jpg" alt="Image 12" onclick="openImage(this.src)">
-            <img src="assets/images/small-13.jpg" alt="Image 13" onclick="openImage(this.src)">
-            <img src="assets/images/small-14.jpg" alt="Image 14" onclick="openImage(this.src)">
-            <img src="assets/images/small-15.jpg" alt="Image 15" onclick="openImage(this.src)">
-            <img src="assets/images/small-16.jpg" alt="Image 16" onclick="openImage(this.src)">
-            <img src="assets/images/small-17.jpg" alt="Image 17" onclick="openImage(this.src)">
-            <img src="assets/images/small-18.jpg" alt="Image 19" onclick="openImage(this.src)">
-            <img src="assets/images/small-20.jpg" alt="Image 20" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-10.jpg" alt="Image 10" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-11.jpg" alt="Image 11" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-12.jpg" alt="Image 12" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-13.jpg" alt="Image 13" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-14.jpg" alt="Image 14" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-15.jpg" alt="Image 15" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-16.jpg" alt="Image 16" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-17.jpg" alt="Image 17" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-18.jpg" alt="Image 19" onclick="openImage(this.src)">
+            <img class='pointer' src="assets/images/small-20.jpg" alt="Image 20" onclick="openImage(this.src)">
         </div>
 
         <!-- Fullscreen overlay for images -->

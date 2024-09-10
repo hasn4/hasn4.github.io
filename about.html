@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hassan Sajid - Photography</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <section id="desktop-nav">
                 <div class="nav-left">
-                    <h1><a href="/">HASSAN SAJID</a></h1>
+                    <a class='title' href="/">HASSAN SAJID</a>
                 </div>
                 <div class="nav-right">
                     <a href="street.html">STREET</a>
@@ -23,20 +26,20 @@
             </section>
             <section id="mobile-nav">
                 <div id="menu-closed">
-                    <h1><a href="/">HASSAN SAJID</a></h1>
-                    <div id="menu-open-button">
+                    <h1><a class='title' href="/">HASSAN SAJID</a></h1>
+                    <div id="menu-open-button" class="pointer">
                         <a  onclick="show_menu()">MENU</a>
                     </div>
                 </div>
                 <div id="menu-open" class="hidden">
-                    <div id="menu-close-button">
+                    <div id="menu-close-button" class="pointer">
                         <a onclick="hide_menu()">CLOSE</a>
                     </div>
                     <div id="nav-link">
                         <div class="nav-links"><a href="street.html">STREET</a></div>
                         <div class="nav-links"><a href="portrait.html">PORTRAIT</a></div>
                         <div class="nav-links"><a href="contact.html">CONTACT</a></div>
-                        <div class="nav-links selected"><a href="about.html">ABOUT</a></div>
+                        <div class="nav-links"><a href="about.html" class="selected">ABOUT</a></div>
                     </div>
                 </div>
             </section>
